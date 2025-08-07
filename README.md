@@ -31,3 +31,4 @@
 |------|------|--------|
 | 배연경 | iOS | [@ykbeeee](https://github.com/ykbeeee) |
 | 서세린 | iOS | [@CerinSeo](https://github.com/CerinSeo) |
+| 김혜서 | design | [@being0825](https://github.com/being0825) |
