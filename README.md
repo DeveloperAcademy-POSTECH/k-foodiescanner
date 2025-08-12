@@ -9,9 +9,8 @@
 
 ## 📱 소개
 
-> llm을 통해 메뉴판에 있는 메뉴에 대한 설명을 제시해줍니다.()
-> <img width="475" height="353" alt="image" src="https://github.com/user-attachments/assets/51683920-370b-4939-a0a6-d88cd25a7a8e" />
-
+> llm을 통해 메뉴판에 있는 메뉴에 대한 설명을 제시해줍니다.
+<img width="475" height="353" alt="image" src="https://github.com/user-attachments/assets/51683920-370b-4939-a0a6-d88cd25a7a8e" />
 
 
 ## 📆 프로젝트 기간
