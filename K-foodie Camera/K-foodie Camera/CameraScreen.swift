@@ -58,7 +58,11 @@ struct CameraScreen: View {
                         dismiss()
                     }
                 }
-
+            
+            // 2. 그리드 오버레이 추가
+            GridOverlayView()
+                .ignoresSafeArea()
+            
             // 2. 상단 안내 배너
             VStack {
                 // 상단 전체 폭을 덮는 반투명 배너 (텍스트 뒤 배경 포함)
@@ -70,8 +74,8 @@ struct CameraScreen: View {
                         .frame(maxWidth: .infinity, alignment: .center)
                         .padding(.vertical, 8)
                         .background(
-                                    Color.blue.opacity(0.6) // 텍스트 뒤 배경 박스
-                                )
+                            Color.blue.opacity(0.6) // 텍스트 뒤 배경 박스
+                        )
                 }
                 .background(
                     RoundedRectangle(cornerRadius: 8)
@@ -79,7 +83,7 @@ struct CameraScreen: View {
                 )
                 .padding(.horizontal, 8)
                 .padding(.top, 40)
-
+                
                 Spacer()
             }
             .ignoresSafeArea(edges: .top)
