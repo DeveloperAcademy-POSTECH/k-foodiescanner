@@ -5,7 +5,7 @@
 //  Created by 서세린 on 8/26/25.
 //
 
-import SwiftUICore
+import SwiftUI
 
 struct GridOverlayView: View {
     let rows: Int = 3
