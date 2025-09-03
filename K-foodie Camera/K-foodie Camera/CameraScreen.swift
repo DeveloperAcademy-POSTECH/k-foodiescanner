@@ -43,7 +43,7 @@ struct ImagePicker: UIViewControllerRepresentable {
     }
 }
 
-// 카메라 화면 SwiftUI 뷰
+// 카메라 화면 SwiftUI View
 struct CameraScreen: View {
     @Binding var image: UIImage?
     @Environment(\.dismiss) private var dismiss
